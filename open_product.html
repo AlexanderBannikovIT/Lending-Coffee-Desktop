@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;900&family=MedievalSharp&family=Open+Sans:wght@400;600;700&family=Roboto:wght@700&family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!--header start-->
+     <header class="header">
+        <div class="header_line">   <!--Верстка линии хедера-->
+            <div class="container">
+              <div class="header_line_wrapper"> 
+                <div class="header_lng">
+                    <a href="#">RU </a>
+                    <a href="#"# class="active">EN</a>
+                </div>
+                <a href="#" class="header_phone">+371000000</a>
+              </div>
+            </div>
+        </div>
+        <div class="container"> <!--Верстка второго блока хедера-->
+             <div class="header_wrapper">
+                <div class="header_nav_block"> <!--навигация-->
+                    <nav>
+                        <a href="" class="nav_link active">Home</a>
+                        <a href="" class="nav_link">About</a>
+                        <a href="" class="nav_link">Menu</a>
+                        <a href="" class="nav_link">Reservation</a>
+                    </nav>
+                </div>
+
+                <a href="" class="logo"><!--лого-->
+                    <img src="/img/logo.png" alt=""> 
+                </a>
+
+                <div class="header_icons_block"> <!--иконки-->
+                    <div class="icons_wrapper">
+                        <a class="icon_link" href="#">
+                            <img src="/img/profile.svg" alt="profile">
+                        </a>
+                        <a class="icon_link" href="#">
+                            <img src="/img/favorite.svg" alt="favorite">
+                        </a>
+                        <a class="icon_link" href="#">
+                            <img src="/img/cart.svg" alt="cart">
+                            <span class="icon_link_event"></span>  <!--точка покупки у корзины-->
+                        </a>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </header>
+
+
+    <!--Open product start-->
+   
+        <div class="container">
+            <div class="product">
+                <div class="Open_Product_Tittle">
+                    Lavazza Crema E Gusto
+                </div>
+
+                
+                <div class="product_wrapper">
+                    <div class="Product_img">
+                        <div class="product_item">
+                            <img class="product_pict" src="/img/pict_product.png" alt="">
+                        </div>
+                    </div>
+                    <div class="Product_info">
+                        <div class="product_item">
+                            <div class="add_card_price">
+                                    $19.99
+                                <del >$29.99</del>
+                            </div>
+                            <form action="" class="product_form">
+                                <div class="radio_wrapper">
+                                    <div class="radio">
+                                        <input type="radio" class="radio_input" id="radio_1" name="size" required>
+                                        <label for="radio_1" class="radio_label">
+                                            L
+                                        </label>
+            
+                                        <input type="radio" class="radio_input" id="radio_2" name="size" required>
+                                        <label for="radio_2" class="radio_label">
+                                            XL
+                                        </label>
+            
+                                        <input type="radio" class="radio_input" id="radio_3" name="size" required>
+                                        <label for="radio_3" class="radio_label">
+                                            XXL
+                                        </label>
+                                    </div>
+                                </div>
+                                <button class="btn btn_main btn_full" type="button" onclick="redirectToNewPage()">
+                                    Add to cart
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Product_desc_container">
+                <div class="desc_tittle">
+                    Description
+                </div>
+                <div class="desc_wrapper">
+                    <div class="desc_ul">
+                        <ul>
+                            <li>
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
+                            </li>
+                            
+                            <li>
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            </li>
+                            <li>
+                                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            </li>
+                            <li>
+                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+      <!--catalog start start-->
+      <div class="container">
+        <h2 class="catalog_tittle">
+            Other Products
+        </h2>
+        <div class="catalog_wrapper">
+            <div class="catalog_block">
+                <div class="catalog_cards_block">
+                    <a href="#" class="catalog_card">
+                        <img class="catalog_img" src="/img/product1 1.png" alt="">
+                        <div class="catalog_card_name">
+                            Lavazza coffee
+                        </div>
+                        <div class="footer_card">
+                            <div class="catalog_card_price">
+                                $19.99
+                                <del class="card_del">$29.99</del>
+                            </div>
+                            <button type="button" class="button_catalog">
+                                <img src="/img/favorite.svg" alt="">
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="catalog_block">
+                <div class="catalog_cards_block">
+                    <a href="#" class="catalog_card">
+                        <img class="catalog_img" src="/img/product2 1.png" alt="">
+                        <div class="catalog_card_name">
+                            Lavazza coffee
+                        </div>
+                        <div class="footer_card">
+                            <div class="catalog_card_price">
+                                $19.99
+                                <del class="card_del">$29.99</del>
+                            </div>
+                            <button type="button" class="button_catalog">
+                                <img src="/img/favorite.svg" alt="">
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="catalog_block">
+                <div class="catalog_cards_block">
+                    <a href="#" class="catalog_card">
+                        <img class="catalog_img" src="/img/product1 1.png" alt="">
+                        <div class="catalog_card_name">
+                            Lavazza coffee
+                        </div>
+                        <div class="footer_card">
+                            <div class="catalog_card_price">
+                                $19.99
+                                <del class="card_del">$29.99</del>
+                            </div>
+                            <button type="button" class="button_catalog">
+                                <img src="/img/favorite.svg" alt="">
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!--catalog end-->
+
+
+      <!--footer start-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_wrapper">
+                    <div class="footer_block">
+                        <a href="#">
+                            <img src="/img/footer_logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footer_block">
+                        <nav class="nav_footer">
+                            <a href="" class="nav_link">Home</a>
+                            <a href="" class="nav_link">About</a>
+                            <a href="" class="nav_link">Menu</a>
+                            <a href="" class="nav_link">Reservation</a>
+                        </nav>
+                    </div>
+                    <div class="footer_block">
+                        <nav class="nav_footer">
+                            <a href="" class="nav_link">Contacts</a>
+                            <a href="" class="nav_link">Privacy policy</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+       <!--footer end-->
+
+       <script>
+            function redirectToNewPage() {
+                window.location.href = "/checkout.html";
+            }
+        </script>
+</body>
+</html>
